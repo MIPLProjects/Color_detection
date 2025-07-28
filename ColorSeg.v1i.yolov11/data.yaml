@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['BlueColor']
+
+roboflow:
+  workspace: animalhuman-egrlo
+  project: colorseg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/animalhuman-egrlo/colorseg/dataset/1
